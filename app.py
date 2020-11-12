@@ -14,4 +14,4 @@ def some_cheese():
 
 @app.route("/report")
 def some_report():
-    return render_template("index.html")
+    return render_template("flights_report.html")
