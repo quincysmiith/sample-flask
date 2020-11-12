@@ -11,3 +11,7 @@ def hello_world():
 @app.route("/cheese")
 def some_cheese():
     return "<h1> I love the stuff </h1>"
+
+@app.route("/report")
+def some_report():
+    return render_template("index.html")
